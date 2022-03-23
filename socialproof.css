@@ -9,18 +9,6 @@
     font-weight: 700;
 }
 
-@media screen and (max-width: 375px) {
-    h1 {
-        text-align: center;
-        font-family: Spartan;
-        font-size: 45px;
-        font-weight: 700;
-        color:  hsl(300, 43%, 22%);
-    }
-
-
-}
-
 body {
     padding: 1rem 4rem 8rem 4rem;
     height: 32rem;
@@ -217,3 +205,26 @@ blockquote {
     display: none;
 }
 
+@media screen and (max-width: 375px) {
+    h1 {
+        text-align: center;
+        font-family: Spartan;
+        font-size: 45px;
+        font-weight: 700;
+        color:  hsl(300, 43%, 22%);
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    #reviewsites {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #buyers {
+        display: flex;
+        flex-direction: column;
+    }
+}
